@@ -3,8 +3,8 @@
     * https://golang.org/doc/install
     * sudo pacman -S go
     * sudo apt-get install golang
-2) go build listcompute.go
-3) Setup credential files
+1) go build listcompute.go
+1) Setup credential files
     * http://docs.aws.amazon.com/aws-sdk-php/v2/guide/credentials.html#credential-profiles
     * I like to setup a default profile, and a dev profile
 
