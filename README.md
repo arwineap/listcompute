@@ -26,7 +26,7 @@ $ listcompute -i ops prd consul
 10.1.13.232
 10.1.14.215
 
-$ listcompute -n ops prd consul
+$ AWS_PROFILE=default listcompute -n ops prd consul
 ops-prd-consul-uswest1-3
 ops-prd-consul-uswest1-2
 ops-prd-consul-uswest1-1
