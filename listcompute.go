@@ -102,8 +102,9 @@ func main() {
                 output_line = append(output_line, *inst.PrivateIpAddress)
             }
         }
-
-        fmt.Println(strings.Join(output_line, " "))
+        if output_line != nil {
+            fmt.Println(strings.Join(output_line, " "))
+        }
     }
 
 }
